@@ -1,0 +1,748 @@
+body{
+	background-color: rgb(228,237,255);
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#navbar{
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background-color: rgb(243,247,255);
+	/*box-shadow: 6px;*/
+	z-index: 1;
+
+}
+
+#nav2,#nav3{
+	width: 135px;
+	height: 36px;
+	background-color: rgb(23,186,209);
+	border-radius: 50px;
+	box-shadow: 2px 2px 5px rgb(23,186,209);
+	float: right;
+	margin: 10px;
+	
+}
+
+#nav1{
+	width: 135px;
+	height: 36px;
+	background-color: rgb(23,186,209);
+	border-radius: 50px;
+	box-shadow: 2px 2px 5px rgb(23,186,209);
+	float: right;
+	margin-top: 10px;
+	margin-right: 106px;
+	margin-left: 10px;
+}
+
+#text1,#text2,#text3{
+	font-family: GothamMedium, sans-serif;
+	font-size: 14px;
+	font-weight: 400px;
+	line-height: 22.4px;
+	color: rgb(230,248,250);
+	text-align: center;
+	position: relative;
+	top: 8px;
+}
+
+#text1:hover{
+	color: rgb(255,255,255);
+	text-decoration: underline;
+}
+#text2:hover{
+	color: rgb(255,255,255);
+	text-decoration: underline;
+}
+#text3:hover{
+	color: rgb(255,255,255);
+	text-decoration: underline;
+}
+
+#gotaxi1{
+	width: 100%;
+	height: 560px;
+}
+
+#gotaxi2{
+	position: relative;
+	top: 80px;
+	left: 75px;
+	width: 460px;
+	height: 250px;
+}
+
+#about{
+	position: relative;
+	bottom: 180px;
+	left: 560px;
+}
+#text4{
+	font-family: GothamBold, sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 40px;
+	letter-spacing: 5px;
+	color: rgb(0, 0, 0);
+}
+
+#bar{
+	position: relative;
+	top: -180px;
+	left: 560px;
+	width: 45px;
+	height: 6px;
+	background-color: rgb(13,100,133);
+}
+
+#info{
+	position: relative;
+	bottom: 150px;
+	left: 560px;
+	width: 600px;
+	height: 220px;	
+}
+#info{
+	font-family: GothamMedium, sans-serif
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	color: rgb(87, 87, 86);
+	text-align: justify-all;
+}
+
+#container{
+	position: relative;
+	bottom: 20px;
+	width: 100%;
+	height: 308px;
+	background-color: rgb(243,250,255);
+	/*border-radius: 0, 5px;*/
+	box-shadow: 1px;
+}
+
+#rec{
+	position: absolute;
+	top: 63px;
+	left:655px;
+	width: 35px;
+	height: 40px;
+	background-color: rgb(243,250,255);
+	border:1px solid rgb(200,200,233);
+
+}
+
+#want{
+	position: absolute;
+	top: 100px;
+	left: 600px;
+	color: rgb(23,186,209);
+	
+
+}
+.want{
+	font-family: GothamBold, sans-serif;
+	font-size: 14px;
+	font-weight: 900px;
+	line-height: 22.4px;
+	word-spacing: 2px;
+}
+
+#reg{
+	position: absolute;
+	top: 120px;
+	left: 500px;
+	color: rgb(87,87,86);
+	}
+
+.reg{
+	font-family: GothamMedium, sans-serif;
+	font-size: 18px;
+	font-weight: 400px;
+	line-height: 28px;
+	text-align: center;
+}
+
+
+#sign{
+	position: absolute;
+	bottom: 40px;
+	left: 605px;
+	width: 140px;
+	height: 50px;
+	background-color: rgb(23,186,209);
+	border-radius: 50px;
+	box-shadow: 0px 1.5px 0px 1px rgb(100, 100, 200);
+}
+#signup{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	font-family: GothamMedium, sans-serif;
+	font-size: 16px;
+	font-weight: 400px;
+	line-height: 22.4px;
+	color: rgb(255,255,255);
+}
+
+#new{
+	position: absolute;
+	top: 1420px;
+	padding-left: 35px;
+	margin-right: 35px;
+	width: 100%;
+	height: 800px;
+	background-color: white;
+}
+#we{
+	text-align: center;
+	font-family: GothamBook, sans-serif;
+	font-size: 33.6px;
+	font-weight: 900;
+	line-height: 53.76px;
+	color: rgb(23, 186, 209);
+}
+
+#box1{
+			position: relative;
+			left: 40px;
+			width: 265px;
+			height: 475px;
+			background-color: white;
+			border-radius: 20px;
+			/*border: 1px solid black;*/
+			box-shadow: 1px 1px 1px 2px rgb(230,230,255);
+}
+#box2{
+	position: relative;
+	left: 350px;
+	float: left;
+	width: 265px;
+	height: 475px;
+	background-color: white;
+	border-radius: 20px;
+	/*border: 1px solid black;*/
+	box-shadow: 1px 1px 1px 2px rgb(230,230,255);
+}
+#box3{
+	position: absolute;
+	left: 700px;
+	float: left;
+	width: 265px;
+	height: 475px;
+	background-color: white;
+	border-radius: 20px;
+	/*border: 1px solid black;*/
+	box-shadow: 1px 1px 1px 2px rgb(230,230,255);
+}
+#box4{
+	position: absolute;
+	left: 1000px;
+	float: left;
+	width: 265px;
+	height: 475px;
+	background-color: white;
+	border-radius: 20px;
+	/*border: 1px solid black;*/
+	box-shadow: 1px 1px 1px 2px rgb(230,230,255);
+}
+#gotaxi3{
+	position: absolute;
+	top:10px;
+	left: 10px;
+	width:240px;
+	height: 240px;
+}
+#gotaxi4, #gotaxi5, #gotaxi7{
+	position: relative;
+	top:10px;
+	left: 10px;
+	width:240px;
+	height: 240px;
+}
+#smallcab2{
+	position: relative;
+	bottom:250px;
+	left: 95px;
+	width:70px;
+	height: 70px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 1px 2px rgb(236,237,247);
+	/*z-index: 1*/
+}
+#taxi{
+	position: relative;
+	bottom: 245px;
+	font-family: GothamBold, sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 28.8px;
+	color: rgb(0, 194, 34);
+	text-align: center;
+}
+
+#t{
+	position: relative;
+	bottom: 240px;
+	border-top: 0.5px solid rgb(219,227,248);
+	margin: 10px;
+	font-family: GothamMedium, sans-serif;
+	font-size: 14px;
+	font-weight: 400px;
+	line-height: 28px;
+	color: rgb(2, 18, 20);
+	text-align: center;
+}
+
+
+#moto, #massage, #food{
+	position: relative;
+	top: 60px;
+	font-family: GothamBold, sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 28.8px;
+	color: rgb(0, 194, 34);
+	text-align: center;
+}
+
+#m, #h, #e{
+	position: relative;
+	top: 65px;
+	border-top: 0.5px solid rgb(219,227,248);
+	margin: 10px;
+	font-family: GothamMedium, sans-serif;
+	font-size: 14px;
+	font-weight: 400px;
+	line-height: 28px;
+	color: rgb(2, 18, 20);
+	text-align: center;
+}
+
+#smallbike, #smallbox2, #smalltruck{
+	position: absolute;
+	bottom:180px;
+	left: 95px;
+	width:70px;
+	height: 70px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 1px 2px rgb(236,237,247);
+	
+}
+
+#castle, #castle2, #castle3, #castle4, #castle5, #castle6, #castle7, #castle8, #castle9{
+	position: relative;
+	right: 0;
+	top: 50px;
+	background-image: url(castle.png);
+	float: left;
+	width: 150px;
+	height: 200px;
+/*	margin-right: : 10px;*/
+	margin-top: 20px;
+}
+
+#blue{
+	width: 100%;
+	height: 265px;
+	background-color: rgb(23,83,205);
+	position: relative;
+	top: 810px;
+	z-index: -1;
+}
+
+#box5{
+			position: relative;
+			top: 50px;
+			left: 45px;
+			width: 265px;
+			height: 475px;
+			background-color: white;
+			border-radius: 20px;
+			box-shadow: 1px 1px 1px 2px rgb(230,230,255);
+}
+
+#service{
+	position: relative;
+	bottom: 385px;
+	font-family: GothamBold, sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 28.8px;
+	color: rgb(0, 194, 34);
+	text-align: center;
+}
+
+#w{
+	position: relative;
+	bottom: 385px;
+	border-top: 0.5px solid rgb(219,227,248);
+	margin: 10px;
+	font-family: GothamMedium, sans-serif;
+	font-size: 14px;
+	font-weight: 400px;
+	line-height: 28px;
+	color: rgb(2, 18, 20);
+	text-align: center;
+}
+
+#mart, #box, #send{
+	position: relative;
+	top: 65px;
+	font-family: GothamBold, sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 28.8px;
+	color: rgb(0, 194, 34);
+	text-align: center;
+}
+
+#l, #f, #s{
+	position: relative;
+	top: 65px;
+	border-top: 0.5px solid rgb(219,227,248);
+	margin: 10px;
+	font-family: GothamMedium, sans-serif;
+	font-size: 14px;
+	font-weight: 400px;
+	line-height: 28px;
+	color: rgb(2, 18, 20);
+	text-align: center;
+}
+
+
+#box6{
+	position: absolute;
+	top: 625px;
+	left: 386px;
+	float: right;
+	width: 265px;
+	height: 475px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px 2px rgb(230,230,255);
+}
+#box7{
+	position: relative;
+	bottom: 170px;
+	right: 420px;
+	float: right;
+	width: 265px;
+	height: 475px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px 2px rgb(230,230,255);
+}
+#box8{
+	position: relative;
+	bottom: 170px;
+	left: 970px;
+	float: left;
+	width: 265px;
+	height: 475px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px 2px rgb(230,230,255);
+}
+#gotaxi8{
+	position: absolute;
+	top:10px;
+	left: 10px;
+	width:240px;
+	height: 240px;
+}
+#gotaxi9, #gotaxi10, #gotaxi11{
+	position: relative;
+	top:10px;
+	left: 10px;
+	width:240px;
+	height: 240px;
+}
+#smalltruck{
+	position: absolute;
+	bottom:180px;
+	left: 95px;
+	width:70px;
+	height: 70px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 1px 2px rgb(236,237,247);
+	
+}
+
+#blue2{
+	position: relative;
+	top: 820px;
+	margin-top: 10px;
+	width: 100%;
+	height: 800px;
+	background-color: rgb(1,81,176);
+}
+
+#easy{
+	position: relative;
+	left: 165px;
+	top: 110px;
+	width: 470px;
+	height: 55px;
+	font-family: GothamBook, sans-serif;
+	font-size: 33.6px;
+	font-weight: 900;
+	line-height: 53.76px;
+	color: rgb(255, 255, 255);
+}
+
+#rec1{
+position: relative;
+left: 165px;
+top: 130px;
+width: 490px;
+height: 165px;
+background-color: rgb(255,255,255);
+border-radius: 10px;
+}
+
+#spe{
+	text-align: right;
+	padding-top: 50px;
+	padding-right: 10px;
+	font-family: GothamBold, sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 28.8px;
+	color: rgb(0, 194, 34);
+}
+#p1{
+	text-align: right;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 0;
+	font-family: GothamMedium, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	color: rgb(2, 18, 20);
+}
+
+#rec2{
+position: relative;
+left: 165px;
+top: 130px;
+width: 490px;
+height: 165px;
+background-color: rgb(255,255,255);
+border-radius: 10px;
+}
+
+#spe2{
+	text-align: right;
+	padding-top: 50px;
+	padding-right: 10px;
+	font-family: GothamBold, sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 28.8px;
+	color: rgb(0, 194, 34);
+}
+#p2{
+	text-align: right;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 0;
+	font-family: GothamMedium, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	color: rgb(2, 18, 20);
+}
+
+#rec3{
+position: relative;
+left: 165px;
+top: 130px;
+width: 490px;
+height: 200px;
+background-color: rgb(255,255,255);
+border-radius: 10px;
+}
+
+#spe3{
+	text-align: right;
+	padding-top: 50px;
+	padding-right: 10px;
+	font-family: GothamBold, sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 28.8px;
+	color: rgb(0, 194, 34);
+}
+
+#p3{
+	text-align: right;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 0;
+	font-family: GothamMedium, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	color: rgb(2, 18, 20);
+}
+
+#hand{
+	position: absolute;
+	top: 200px;
+	right: 120px;
+	width:550px;
+	height: 600px;
+}
+
+#white{
+	position: relative;
+	top: 800px;
+	background-color:rgb(243,247,255); 
+	width:100%;
+	height: 100%
+}
+#house{
+	position: relative;
+	top: 20px;
+	width: 100%;
+	height: 800px;
+	background-color: rgb(228,237,255);
+	
+}
+#gotaxi15{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 650px;
+	height: 250px;
+}
+#gotaxi16{
+	position: absolute;
+	top: 0;
+	left: 650px;
+	width: 700px;
+	height: 250px;
+}
+
+#left{
+	position: relative;
+	
+	
+}
+#dell{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 100px;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	animation-name: dell;
+	animation-duration: 8s;
+	animation-direction: normal;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+	@keyframes dell{
+	0%{
+		left: 0%;
+		top: 100px;
+		}
+	25%{
+		 left: 25%;
+		 top: 100px;
+		}
+	50%{
+		 left: 50%;
+		 top: 100px;
+		}
+	75%{
+		 left: 75%;
+		 top: 100px;
+		}
+	100%{
+		  left: 100%;
+		  top: 100px;
+	}
+
+/*#left1{
+	position: absolute;
+	z-index: -1;
+}*/
+	#truckl{
+	position: absolute;
+	top: 130px;
+	left: 40px;
+	width: 200px;
+	height: 200px;
+	animation-name: truckl;
+	animation-duration: 8s;
+	animation-delay: 1s;
+	animation-direction: normal;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+	@keyframes truckl{
+	0%{
+		left: 0%;
+		top: 100px;
+		}
+	25%{
+		 left: 25%;
+		 top: 100px;
+		}
+	50%{
+		 left: 50%;
+		 top: 100px;
+		}
+	75%{
+		 left: 75%;
+		 top: 100px;
+		}
+	100%{
+		  left: 100%;
+		  top: 100px;
+	}
+#cabl{
+	position: absolute;
+	top: 110px;
+	left: 80px;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	height: 200px;
+	animation-name: cabl;
+	animation-duration: 10s;
+	animation-delay: 2s;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes cabl{
+	0%{
+		left: 0%;
+		top: 100px;
+		}
+	25%{
+		 left: 25%;
+		 top: 100px;
+		}
+	50%{
+		 left: 50%;
+		 top: 100px;
+		}
+	75%{
+		 left: 75%;
+		 top: 100px;
+		}
+	100%{
+		  left: 100%;
+		  top: 100px;
+	}
